@@ -3,8 +3,8 @@ package Lesson7;
 public class Main {
     static void main() {
         char a = 'A';
-        boolean test = true;
+        boolean b= true;
         System.out.println(a);
-        System.out.println(test);
+        System.out.println(b);
     }
 }

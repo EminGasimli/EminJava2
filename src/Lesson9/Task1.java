@@ -9,7 +9,7 @@ public class Task1 {
         b = a;
         System.out.println(b);
 
-        b = 91;
+        b = 99;
         System.out.println(b);
 
         System.out.println("a deyismir");

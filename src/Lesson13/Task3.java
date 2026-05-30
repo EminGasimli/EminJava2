@@ -2,9 +2,12 @@ package Lesson13;
 
 public class Task3 {
     static void main() {
-        int a = 8;
-        int b = 3;
-        int c = 2;
-        System.out.println(a + b * c - a / c);
+        boolean isBlocked = false;
+        if (isBlocked == false) {
+            System.out.println("Istifadeci aktivdir");
+        }
+        else {
+            System.out.println("Isyifadeci bloklanib");
+        }
     }
 }

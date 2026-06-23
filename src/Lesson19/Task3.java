@@ -4,7 +4,7 @@ public class Task3 {
     static void main() {
         System.out.println("""
 Ad: Ali
-Yaş: 20 
+Yaş: 20
 Hobbi: Futbol
 """);
         System.out.println("""

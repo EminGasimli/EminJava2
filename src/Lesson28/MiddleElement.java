@@ -1,6 +1,6 @@
 package Lesson28;
 
-public class Task2 {
+public class MiddleElement {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50, 60};
         if (arr.length % 2 == 1) {

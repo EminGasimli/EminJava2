@@ -1,6 +1,6 @@
 package Lesson28;
 
-class Developer {
+public class Developer {
     String name;
     String language;
     int experience;
@@ -21,9 +21,6 @@ class Developer {
     void show() {
         System.out.println(name + " " + language + " " + experience);
     }
-}
-
-public class Task3 {
     public static void main(String[] args) {
         Developer d1 = new Developer();
         Developer d2 = new Developer("Emin");

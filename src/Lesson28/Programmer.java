@@ -1,6 +1,6 @@
 package Lesson28;
 
-class Programmer {
+public class Programmer {
     String name;
     String surname;
     int age;
@@ -21,9 +21,6 @@ class Programmer {
     void show() {
         System.out.println(name + " " + surname + " " + age + " " + salary);
     }
-}
-
-public class Task4 {
     public static void main(String[] args) {
         Programmer p1 = new Programmer("Ali");
         Programmer p2 = new Programmer("Veli", "Memmedov");

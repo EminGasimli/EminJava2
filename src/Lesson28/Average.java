@@ -1,5 +1,6 @@
 package Lesson28;
-public class Task6 {
+
+public class Average {
     public static void main(String[] args) {
         int i = 100;
         int sum = 0;

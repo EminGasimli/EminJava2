@@ -2,7 +2,10 @@ package Lesson39;
 
 public class BankAccount {
     private double balance;
-    public BankAccount(double initialBalance){
+    public BankAccount(double initialBalance) throws InsufficientBalanceException{
+        if(initialBalance < 0){
+            throw new InsufficientBalanceException("Xeta bas verdi: menfi balans ola bilmez");
+        }
         this.balance = initialBalance;
     }
     public void deposit(double amount) throws InsufficientBalanceException{
